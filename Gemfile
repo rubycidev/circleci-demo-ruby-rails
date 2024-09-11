@@ -39,7 +39,6 @@ gem 'jbuilder', '~> 2.9.1'
 # https://github.com/rubocop-hq/rubocop
 gem 'rubocop', '~> 0.89.0', require: false
 
-gem "ruby_ci", github: "RubyCI/ruby_ci_gem", branch: "bugfix/188183739-increase-ruby-support"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -50,6 +49,7 @@ group :development, :test do
 
   gem 'rspec_junit_formatter'
   gem 'rspec-rails', '4.0.0.beta3'
+  gem "ruby_ci"
 end
 
 group :development do
